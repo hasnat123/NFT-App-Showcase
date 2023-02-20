@@ -16,7 +16,7 @@ const Features = () => {
       <div className={`flex items-center w-full minmd:w-3/4, flex-col text-center`}>
         <div>
           <h1 className={`font-bold font-IBMPlex text-5xl sm:text-4xl minmd:text-6xl minlg:text-8xl leading-12 minmd:leading-13 text-white`}>Technologies</h1>
-          <p className={`my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16 text-white`}>ProNef has been developed using a cross platform techonology, React Native.</p>
+          <p className={`my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16 text-white`}>ArtiFi was built using React Native, a cross platform framework for mobile development</p>
         </div>
         <div className='flex justify-center flex-wrap'>
           <FeatureCard iconUrl={assets.react} iconText='React Native'/>

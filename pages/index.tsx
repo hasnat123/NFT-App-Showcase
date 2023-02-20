@@ -13,8 +13,8 @@ export default function Home() {
       </Head>
 
       <SectionWrapper
-        title='Your own NFT marketplace. Start selling and growing.'
-        description='Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people in using proNef marketplace.'
+        title='Discover the Future of Digital Asset Trading with ArtiFi'
+        description='Buy, store and collect NFTs with our user-friendly platform. Join 10+ million people worldwide.'
         showBtn
         mockupImg={assets.homeHero}
         banner='banner'
@@ -22,8 +22,8 @@ export default function Home() {
       />
 
       <SectionWrapper
-        title='Smart User Interface Marketplace'
-        description='Experience a buttery UI of ProNef Nft marketplace. smoth constant colors of fluent UI design'
+        title='Smart User Interface'
+        description='Experience an intuitive UI for effortless navigation and seamless transactions'
         showBtn={false}
         mockupImg={assets.homeCards}
         banner=''
@@ -34,15 +34,15 @@ export default function Home() {
 
       <SectionWrapper
         title='Deployment'
-        description='ProNef is built using Expo which runs beatifully on all devices. You can easily get your app in peoples hands.'
+        description='Artifi runs beatifully on all devices and can be found in the Expo app store'
         showBtn={false}
         mockupImg={assets.feature}
         banner=''
         reverse={true}
       />
       <SectionWrapper
-        title='Creative way to showcase the store'
-        description='The app contains two screens. The first screen lists all NFTs while the second shows details of a specific NFT.'
+        title='Creative way to showcase artwork'
+        description="Easily navigate a whole catologue of amazing digital art. List your own NFTs or bid for someone else's."
         showBtn={false}
         mockupImg={assets.mockup}
         banner='banner02'
@@ -50,7 +50,7 @@ export default function Home() {
       />
       <Download />
 
-      <div className={`px-4 py-2 justify-center items-center bg-primary flex-color text-center banner04`}>
+      <div className={`px-4 py-5 justify-center items-center bg-primary flex-color text-center banner04`}>
         <p className={`my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16 text-white`}>
           Made with love by {' '}
           <span className='bold'> Mohammad Hasnat</span>
